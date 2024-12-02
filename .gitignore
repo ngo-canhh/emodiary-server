@@ -1,0 +1,5 @@
+# Bỏ qua thư mục venv (môi trường ảo Python)
+venv/
+
+# Bỏ qua các thư mục __pycache__ được tạo tự động bởi Python
+__pycache__/
