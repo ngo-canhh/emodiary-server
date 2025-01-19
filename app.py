@@ -51,7 +51,7 @@ def get_audio_duration(stream_url: str) -> float:
 
 # Spotify-related functions
 async def get_trending_tracks_id() -> list:
-    url = "https://open.spotify.com/playlist/6hdAmeVk15lP6EmTc5vXvG"
+    url = "https://open.spotify.com/playlist/37i9dQZF1E39LNQIMHDlB5"
     html_content = await fetch_html_content(url)
     return extract_spotify_track_ids(html_content)
 
